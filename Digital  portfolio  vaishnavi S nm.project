@@ -1,0 +1,205 @@
+Style.js
+var name="vaishnavi S";
+const dob="09.11.2005"
+console.log(first_name,last-name);
+new.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function hello(){
+            alert('hello all');
+        }
+    </script>
+</head>
+<body>
+    <button type="button" onclick="hello()">
+        click me here
+    </button>
+</body>
+</html>
+Index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VAISHNAVI S Digital Portfolio</title>
+    <link rel="stylesheet" href="script.css">
+    <LINK:favicon></LINK:favicon>
+    </head>
+<body>
+    <header>
+
+    
+    <div class="header-content">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwo5cJhu36dJfwZsQD-y_J8YFRgH57-l-A1VB6zE1UlCduR9Gjc-m4COd5qxcSeEtHWWo&usqp=CAU" alt="My pic" class="profile-picture">
+        <h1>VAISHNAVI S</h1>
+    </div>
+    
+</header>
+<nav>
+    <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        
+    </ul>
+</nav>    
+<section id="about">
+    <div class="section-content">
+        <h2>About VAISHNAVI S</h2>
+        <p style="text-align: justify;">
+            VAISHNAVI S, DEPARTMENT OF COMPUTER SCIENCE ,Dr.R.V Arts and Science college.
+        </p>
+    </div>
+</section>
+<section id="education">
+    <div class="section-content">
+        <h2>Education and qualification</h2>
+        <table border="2" cellspacing="5" width="100%" cellpadding="5">
+            <tr>
+                <th colspan="5">Education & Qualification</th>
+            </tr>
+            <tr>
+                <th>Name of Degree</th>
+                <th>College/Institution</th>
+                <th>Board/University</th>
+                <th>Year of passing</th>
+                <th>Percentage</th>
+            </tr>
+            <tr>
+                <td>B.Sc</td>
+                <td>Dr.R.V ARTS AND SCIENCE college </td>
+                <td>Bharathiar University</td>
+                <td>2024-2025</td>
+                <td>85%</td>
+            </tr>
+            <tr>
+                <td>H.SC</td>
+                <td>Govt.Hr.Sec.School</td>
+                <td>State Board</td>
+                <td>2019-2020</td>
+                <td>80%</td>
+            </tr>
+            <tr>
+                <td>SSLC</td>
+                <td>Govt.Hr.Sec.School</td>
+                <td>State Board</td>
+                <td>2022-2023</td>
+                <td>80%</td>
+            </tr>
+        </table>
+    </div>
+</section>
+<section id="education">
+    <div class="section-content">
+        <h2>Skills</h2>
+        <h2>Online Courses <img src="./video.gif" alt="video icon" class="icon"></h2>
+        <ul>
+            <li>C Language</li> 
+            <li>C++ Language</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>Web Design</li>
+            <li>Tally</li>
+            <li>MS-Office</li>
+            <li>Full_Stack Using Django/MEAN</li>
+        </ul>
+    </div>
+</section>
+<section id="projects">
+    <div class="section-content">
+        <h2>Project<img src="./video.gif" alt="video icon" class="icon"></h2>
+    </div>
+</section>
+<footer>
+    <p>&copy;2024 VAISHNAVI S</p>
+</footer>
+<script src="script.css"></script>
+</body>
+
+</html>
+
+script.css
+h1
+{
+    color: rgb(89, 0, 255);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    box-sizing: border-box;
+
+}
+header {
+    /* background-color:black; */
+    color: blue;
+    text-align: center;
+    padding: 2rem 0;
+    position: relative;
+}
+.header-content {
+    font-size: 2.5 rem;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzs4DX9SbMr4h0ASCtO1fHXODlCqjLqwzM0w&s);
+    background-repeat: repeat;
+    background-size: cover;
+    color:aqua;
+}
+.profile picture{
+    width: 100px;
+    height: 100px ;
+    border-radius: 75%;
+    object-fit: cover ;
+    position: absolute;
+    top: 75px;
+    left: 100px;
+}
+nav{
+    background-color: rgb(203, 173, 231);
+    color: rgb(121, 17, 219);
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0px;
+}
+nav ul li{
+    display: inline;
+    margin: 0 20px;
+}nav ul li a{
+    text-decoration: none;
+}
+.section-content{
+    background-color: rgb(212, 230, 233);
+    padding: 2rem;
+    margin:1rem;
+    border-radius: 20px;
+    box-shadow:0 0 10px  rgba(0,0,0,0.1);
+    
+
+}
+.download-button{
+    background-color: honeydew;
+    color: brown;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.download-button:hover{
+    background-color: blue;
+}
+footer{
+    text-align: center;
+    padding:1rem 0;
+    background-color: cadetblue;
+    color: antiquewhite;
+}
